@@ -48,7 +48,7 @@ const ResultsTestimonials = () => {
     <section className="bg-slate-900 text-white py-20 px-6">
       <div className="max-w-7xl mx-auto">
 
-        {/* Heading */}
+        
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold">
             Results That Speak for Themselves
@@ -58,7 +58,7 @@ const ResultsTestimonials = () => {
           </p>
         </div>
 
-        {/* Results */}
+      
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
           {results.map((item, index) => (
             <div
@@ -71,7 +71,7 @@ const ResultsTestimonials = () => {
           ))}
         </div>
 
-        {/* Testimonials */}
+        
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold">
             What Our Clients Say
